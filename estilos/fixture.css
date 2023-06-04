@@ -1,0 +1,149 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: #e1f1fd;
+}
+.fixture {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+
+}
+header {
+  background-color: #274684;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.partido {
+  background-color: #f0f0f0;
+  padding: 0px;
+  margin: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to left,#2d8ad2,	#82b7f2);
+  border: 2px solid black;
+
+}
+.partido:hover{
+background-color:#6d97eb;
+}
+#banner {
+  background-image: url(../imagenes/caparanasn_310959197_1289180478563329_1449626661523197856_n.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#banner h1 {
+  font-size: 36px;
+}
+
+#banner p {
+  font-size: 18px;
+}
+.division{
+  background-color: #476db9;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 20px;
+}
+section {
+  padding: 50px 0;
+  background-color: #fff;
+}
+.equipo {
+  font-weight: bold;
+  text-align: center;
+}
+
+.horario{
+  background-color: 	#c8d9ed;
+  margin-top: 20px;
+  height: 25px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+}
+.versus {
+  font-weight: bold;
+  text-align: center;
+  margin: 5px 0;
+}
+.fechas{
+  margin-top: 0px;
+  background-color: #274684;
+  text-align: center;
+  font-weight: bold;
+  color:black;
+}
+.fechas:hover{
+  color: white;
+}
+h1{
+  text-align: center;
+  
+}
+.redes a {
+  color: #000; 
+  font-size: 50px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.boton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  display: flex;
+  background-image: linear-gradient(#bde1ff,	#5d9ae1);
+  color: black;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton:hover{
+  filter: brightness(90%);
+}
+h2{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #274684;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+p{
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #98c3ef;
+}
+
+.menu{
+    background-color: #73b0ed;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.items{
+    align-items: center;
+    display: flex;
+    margin-left:300px;
+    text-decoration: none;
+}
+.items li{
+    border-radius: 4px;
+    margin: 0 15px;
+    list-style: none;
+    align-items: center;
+    text-decoration: none;
+}
+.escudo{
+    margin: auto;
+    width: px; 
+    padding: 5px;
+}
+.titulo{
+    display: flex;
+    justify-content: center
+}
+footer{
+    background-color: #73b0ed;
+}
+h2{
+    font-weight: bold;
+    font-style: italic;
+}
+.navegacion{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+    
+}
+.gcontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+  }
+  
+  .gitem {
+    text-align: center;
+  }
+  
+  .gitem img {
+    width: 100%; 
+  }
+  
+  .gitem h3, .gitem p {
+    margin: 10px 0;
+  }
+  

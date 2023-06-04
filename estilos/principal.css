@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+header {
+    background-color: #274684;
+    padding: 10px;
+  }
+.division{
+  background-color: #476db9;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 20px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+#banner {
+    background-image: url(../imagenes/caparanasn_310959197_1289180478563329_1449626661523197856_n.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+#banner h1 {
+    font-size: 36px;
+  }
+ 
+#banner p {
+    font-size: 18px;
+  }
+  
+section {
+    padding: 50px 0;
+    background-color: #e1f1fd;
+  }
+  
+#imagenes{
+  background-image: linear-gradient(#e1f1fd,	#82b7f2);
+  background-size: cover;
+}  
+
+section h2 {
+    text-align: center;
+  }
+footer {
+    background-color: #274684;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+nav ul li a:hover {
+    background-color: #9b9b9b7d;
+    color: #ffffff;
+  }
+
+.gcontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+  }
+  
+.gitem {
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.gtitulos{
+    color: #0f54dd;
+    text-decoration: none;
+  }
+  
+.gitem img {
+    width: 100%;
+    height: 350px;
+    transition: transform 0.3s ease;
+  }
+  
+.gitem:hover img:hover{
+  transform: scale(1.2);
+  filter: brightness(70%);
+}
+.gitem h3, .gitem p {
+    margin: 30px 0;
+}
+.boton{
+  background-image: linear-gradient(#bde1ff,	#5d9ae1);
+  color: black;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.boton:hover{
+
+  background-image: linear-gradient(rgb(139, 207, 238), #1c72d5);
+
+}
+a{
+  text-decoration: none;
+}
+h3:hover{
+  color: white;
+}
+.redes a {
+  color: #000; 
+  font-size: 50px;
+  margin-right: 10px;
+}
+.descr{
+  align-items: center;
+  text-align: center;
+  max-width: 300px;
+  padding: 0px;
+  margin: 200px;
+}
+p{
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+header {
+  background-color: #274684;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.form{
+    border: 3px solid black;
+    border-radius: 10px;
+    border-color: #274684;
+    background-color: #a5d5f9;
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to left,#e1f1fd,	#82b7f2);
+}
+
+#banner {
+    background-image: url(../imagenes/caparanasn_310959197_1289180478563329_1449626661523197856_n.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+
+  }
+  
+#banner h1 {
+    font-size: 36px;
+  }
+.division{
+    background-color: #476db9;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+#banner p {
+    font-size: 18px;
+}
+.enviar{
+    height: 30px;
+    width: 80px;
+    background-image: linear-gradient(to left,#2d8ad2,	#82b7f2);
+    background-color: #2d8ad2;
+    border: 2px solid black;
+
+}
+.enviar:hover{
+    color: white;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+}
+.texto{
+    max-width: 300px; 
+    max-height: 150px; 
+}
+  footer {
+    background-color: #274684;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  .redes a {
+    color: #000; 
+    font-size: 50px;
+    margin-right: 10px;
+  }
